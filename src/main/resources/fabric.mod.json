@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "tiktokmod",
+  "version": "1.0",
+
+  "name": "TikTok Mod",
+  "description": "This is a Mod that shows you where the tiktok border is!",
+  "authors": [
+    "TullyE"
+  ],
+  "contact": {
+    "homepage": "https://github.com/TullyE",
+    "sources": ""
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/tikTokRect/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.tully.tikTokRect.TikTokRectMod"
+    ], 
+    "client": [
+      "com.tully.tikTokRect.TikTokRectClient"
+    ]
+  },
+  "mixins": [
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric-api": "*",
+    "minecraft": "~1.19",
+    "java": ">=17",
+    "fabric-key-binding-api-v1": "*"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
